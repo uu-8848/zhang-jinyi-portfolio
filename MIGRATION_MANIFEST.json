@@ -1,0 +1,611 @@
+{
+  "source_commit": "d5d882b808723a404d9c2f86f34bfd8ebc567630",
+  "sites_version": 6,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 88,
+      "sha256": "21b3d0512eed6748e18ba886ae1efc689d6f2bff504c442766663a4c30817d00"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 2738,
+      "sha256": "0deed33f23985a756e46d1d4c08529d2c715df21adcc8facd4f95835e1f41d73"
+    },
+    {
+      "path": "ART_DIRECTION.md",
+      "bytes": 9804,
+      "sha256": "85785223ff5c3097899e77262ecb16d9e1ccc7af303bd73ec71ba742ac08702c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2555,
+      "sha256": "c73b9e4ec9b0ee061e4c406ed6146504e9de69e6335de0f0132aa016e42056b7"
+    },
+    {
+      "path": "design/font-license.txt",
+      "bytes": 52517,
+      "sha256": "1315a62758a603a3e6e87a79b8389563789c59c1740b9db8bc2b20e2e2145458"
+    },
+    {
+      "path": "design/image-motion.frag",
+      "bytes": 1803,
+      "sha256": "eefda8b52b4b66bfc6da7ebc54dc585a8c10b9d047746c1d31d370f073f30fe3"
+    },
+    {
+      "path": "design/image-prompts.md",
+      "bytes": 5801,
+      "sha256": "ce607e357d74d9fa91422fd9d511b395a5aa46f29291e6313dd8ae211c73d02e"
+    },
+    {
+      "path": "design/motion-shaders.json",
+      "bytes": 1954,
+      "sha256": "3d6765512c2a7dd14cf0d870b855e4a01fe368c6800584e1574d2e1242a575fc"
+    },
+    {
+      "path": "design/render-motion.py",
+      "bytes": 6794,
+      "sha256": "7abb73b2139f09e8903cc15380ff435759e21ee0a8cc0029cf76182ab5957b94"
+    },
+    {
+      "path": "design/sources/ending-landscape-v5.png",
+      "bytes": 2148946,
+      "sha256": "e815e8affaa77ed6d7d0f69ede9a0954e86f659ec21349af1a64cd25f2dad25b"
+    },
+    {
+      "path": "design/sources/floating-membranes-v5.png",
+      "bytes": 2295657,
+      "sha256": "9d0c19bc4b5a92c29d5c0804fadc41c2da09da7dddebf9b5b7f2a9d75f5e88e6"
+    },
+    {
+      "path": "design/sources/opening-sculpture-v5.png",
+      "bytes": 2330300,
+      "sha256": "d19082dfd83497bd1ef28b433f6033de9c477bdc591481f6cfad778e507d4ae4"
+    },
+    {
+      "path": "index.html",
+      "bytes": 1819,
+      "sha256": "fd796ec30b03040dc1fecf948aaecf635977e66b0150e99ed7bfbec6ab6e9815"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 36303,
+      "sha256": "2dc0a4609c7272bc891332708876b8b492291c837c18d39adc52154face2c0ca"
+    },
+    {
+      "path": "package.json",
+      "bytes": 395,
+      "sha256": "0c8e2d72e92a1d441a7e9708cf0e37c260aef3b294e59cbdeeee9b7eb9054b4f"
+    },
+    {
+      "path": "public/assets/archive/folio-04.webp",
+      "bytes": 283464,
+      "sha256": "7d5ff1b4116036cfac982a40b7d70ea23b22dfb68c61a6ffacdba7f80f90e876"
+    },
+    {
+      "path": "public/assets/archive/folio-05.webp",
+      "bytes": 395528,
+      "sha256": "9536bcc1542073e500161973fdb75e2f34aaec31b7213f26c00e07dfb198aba0"
+    },
+    {
+      "path": "public/assets/archive/folio-06.webp",
+      "bytes": 437340,
+      "sha256": "56ff2e8f0a79de64c61c71abc48267f948e0dfa03315c5e4ec5dc0487c0867a4"
+    },
+    {
+      "path": "public/assets/archive/folio-07.webp",
+      "bytes": 438422,
+      "sha256": "3c3fb362d8bd2493ceb87306fa256cb1d093582abfb9d0f2efaf3b0150e3cf9d"
+    },
+    {
+      "path": "public/assets/archive/folio-09.webp",
+      "bytes": 389726,
+      "sha256": "db5ccf6baa345301a7d9996f694dc051bd3f8757b91bacfe80c94cc7569ad7f2"
+    },
+    {
+      "path": "public/assets/archive/folio-10.webp",
+      "bytes": 462028,
+      "sha256": "7669e8551a2e3216ae5bd5d383df7b5eae7d3b9cfaeb79964466690c003405de"
+    },
+    {
+      "path": "public/assets/archive/folio-11.webp",
+      "bytes": 308080,
+      "sha256": "bfa8aee1df1774bf2d4901b00052f0b1e04ecce61ddcd05d5f2f07a3d1d03ec6"
+    },
+    {
+      "path": "public/assets/archive/folio-12.webp",
+      "bytes": 412926,
+      "sha256": "f2612fee65d809ce05054055f1d9ffe064f1e97191a8cfa92bbb5d62c455614f"
+    },
+    {
+      "path": "public/assets/archive/folio-13.webp",
+      "bytes": 149742,
+      "sha256": "957605a3dd21f7a5c9ac9da72fb923abcd97a627d5cd83557ea3a3771e1239bb"
+    },
+    {
+      "path": "public/assets/archive/folio-14.webp",
+      "bytes": 424944,
+      "sha256": "e68ead11510c5672cdc332e58c67746a1a3ee322c89aa8dcc25c9e636ddb6d43"
+    },
+    {
+      "path": "public/assets/archive/folio-15.webp",
+      "bytes": 540356,
+      "sha256": "03835fde8c4ebfb9585c0f549a200c8eb03592d011858c3040574978eec08391"
+    },
+    {
+      "path": "public/assets/archive/folio-16.webp",
+      "bytes": 490080,
+      "sha256": "5f2698733dad2a8ab04eab7c9c911833e380c4ea96c97e8e2af1eed7356e1049"
+    },
+    {
+      "path": "public/assets/archive/folio-17.webp",
+      "bytes": 266144,
+      "sha256": "7bf7062b5a1a0cd6b408967ed6512d242c297895791c809ee564f6d479963c0c"
+    },
+    {
+      "path": "public/assets/archive/folio-18.webp",
+      "bytes": 235800,
+      "sha256": "69fb7fbf5bedaa34aadb972a93318d031e151e3c75eafd803ebcf4d72668a4e9"
+    },
+    {
+      "path": "public/assets/archive/folio-19.webp",
+      "bytes": 427684,
+      "sha256": "7d0534e551fadba2fe4f5f53b6f509cca92092ce91246892b238d28d091b80af"
+    },
+    {
+      "path": "public/assets/archive/folio-20.webp",
+      "bytes": 390498,
+      "sha256": "2faa37aa211c051050941dccbb1b21c0f365b34054e0592e9756529bbc6703fd"
+    },
+    {
+      "path": "public/assets/archive/folio-21.webp",
+      "bytes": 705712,
+      "sha256": "3a93b7c5817f923945f9f82062aae1fcb2b7769074b13fd8b77d1f74a3c62ec4"
+    },
+    {
+      "path": "public/assets/archive/folio-27.webp",
+      "bytes": 123086,
+      "sha256": "79ef34de08c3f3df1a92c0998c65d5a7a72b8aa1ac8549cbb0fd2df1b93c44d6"
+    },
+    {
+      "path": "public/assets/archive/folio-29.webp",
+      "bytes": 183576,
+      "sha256": "a3bd5d8df32c35e16a7b7948ecca48b2bd7091b32182562f70eb43b6bc2e620c"
+    },
+    {
+      "path": "public/assets/board-1.webp",
+      "bytes": 458726,
+      "sha256": "ce6cdb23180e36ac11594f68c12e9c95024c7cbe4d989b9cf0997c5cc8f2984f"
+    },
+    {
+      "path": "public/assets/cinema/ending-loop.mp4",
+      "bytes": 1772737,
+      "sha256": "fad4000653bb8af0f8bbd96ce14009fc00c80948280685e3653e7d0b27f3a1b3"
+    },
+    {
+      "path": "public/assets/cinema/ending-mobile.mp4",
+      "bytes": 551329,
+      "sha256": "fd6e8b22cf72ac2cbb01de396d8cf6bb428009d1dc6ba948701907ad0996482e"
+    },
+    {
+      "path": "public/assets/cinema/ending-poster.webp",
+      "bytes": 235406,
+      "sha256": "4bc56bf6b013b317b14d0ed09793d3ced62dd54d83fd8ae04b66738c5e89dd3e"
+    },
+    {
+      "path": "public/assets/cinema/font-license.txt",
+      "bytes": 52517,
+      "sha256": "1315a62758a603a3e6e87a79b8389563789c59c1740b9db8bc2b20e2e2145458"
+    },
+    {
+      "path": "public/assets/cinema/membranes-loop.mp4",
+      "bytes": 1866712,
+      "sha256": "c3022d13b40ac0f8d734d5510e0082e72608aae6ef279e6a8ea9afcfa07cdc29"
+    },
+    {
+      "path": "public/assets/cinema/membranes-mobile.mp4",
+      "bytes": 515366,
+      "sha256": "55da2178ee76482ed113acd81f00c67c47407783d2fa2838149e942456ddfcb2"
+    },
+    {
+      "path": "public/assets/cinema/membranes-poster.webp",
+      "bytes": 148166,
+      "sha256": "1996511fffe27baecf0396c4e538242b72397057bfbd5114f76041ce26dcc0c1"
+    },
+    {
+      "path": "public/assets/cinema/narrow-bold.woff",
+      "bytes": 10672,
+      "sha256": "4c900ded3fc68868b3ae20058580ec87b1fd18e7876c401f6508b0fd83e7584f"
+    },
+    {
+      "path": "public/assets/cinema/opening-loop.mp4",
+      "bytes": 2299584,
+      "sha256": "8a07fb062074bd91ad00329d76ba8861c1dacc9bc0248c1516e6e270a08454cc"
+    },
+    {
+      "path": "public/assets/cinema/opening-mobile.mp4",
+      "bytes": 721122,
+      "sha256": "97491b0e4f54185d519c19fbed3950ae0d15b2a922ada20c53dbc49584d7df99"
+    },
+    {
+      "path": "public/assets/cinema/opening-poster.webp",
+      "bytes": 288882,
+      "sha256": "3e0b23d8f0e27ef7dc735bcfb8226d74de309a190811f90fdbe475aa469d879c"
+    },
+    {
+      "path": "public/assets/films/endless-tower.mp4",
+      "bytes": 21049186,
+      "sha256": "6bc1be694de1849d294686dad68462a18b5f35e56147de03017f7f8b6c875991"
+    },
+    {
+      "path": "public/assets/films/mr-xu.mp4",
+      "bytes": 16442169,
+      "sha256": "15ba350b1402251f9b0d576afd8c51ffde38790664318e6e57cbe39b8107fd3d"
+    },
+    {
+      "path": "public/assets/films/showreel.mp4",
+      "bytes": 6760675,
+      "sha256": "e5783e413c431666db695c66747f772c354134dcc3ee20a0ff50afe3d1766e31"
+    },
+    {
+      "path": "public/assets/films/sleep-no-more.mp4",
+      "bytes": 16419047,
+      "sha256": "38a1d7f57c757b3da62cadcda663cff897db83695ee6898ff11e92fe66fe9082"
+    },
+    {
+      "path": "public/assets/films/suspended-state/film.m3u8",
+      "bytes": 1661,
+      "sha256": "3176e31537e650a6bcb9941f926f0054b4e395dfff046c3ce4fffa6953963a95"
+    },
+    {
+      "path": "public/assets/films/suspended-state/init.mp4",
+      "bytes": 1374,
+      "sha256": "ffe4fdbedb234d1e1d24cf6de435211e9bcce19c431fc58756105d3b29fe3baa"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-000.m4s",
+      "bytes": 390906,
+      "sha256": "31500e2cf169ed660ba2d76a9c4ca050884de223e4ef4073cbf7e51f20abe445"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-001.m4s",
+      "bytes": 1453398,
+      "sha256": "b5b81c241077881dd925cda3ed9e240ce60f22ac8dc56f1a091d97c32905f005"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-002.m4s",
+      "bytes": 1370248,
+      "sha256": "0bf68bc1dea8385bdc36b7fcf19c4cde10801b207ee3d0b6f8280bbe369c5200"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-003.m4s",
+      "bytes": 1215937,
+      "sha256": "3611016ee0d9ae4f7daf692e78718297cdf1f73cc61402d026ab2e95e8aa2329"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-004.m4s",
+      "bytes": 847230,
+      "sha256": "6bd97d613cbdd264773d9fcf044089dd4a7d3b740a9ced03d61f7c30d22eb3d8"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-005.m4s",
+      "bytes": 1039911,
+      "sha256": "37d26f315724e9c0edfcdb3545ea746adc6deadb967f02a36781f6259a4dd323"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-006.m4s",
+      "bytes": 1044840,
+      "sha256": "4968a08ae6fccf7a8577ffc913c6b9d3abb7a4e6cddb7bdf7356e1aa95a41e22"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-007.m4s",
+      "bytes": 1518610,
+      "sha256": "bdf966cd64fc2e760b5105d3cdbbb8971751703b5e2322611137eb57d3dbc7c8"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-008.m4s",
+      "bytes": 1286507,
+      "sha256": "3232cc8fa47518e9fe21a46c18f8b0e775ba118c8f9ab8cbf8b02f0f9b22c93c"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-009.m4s",
+      "bytes": 1359062,
+      "sha256": "56c2b4c955e5f5932f8a3f0afdf1fbf7d1a47bdcb53c3f46c9debe34443defdb"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-010.m4s",
+      "bytes": 1303080,
+      "sha256": "5fc797b43a45b20a63b854f7046434910d8b48c098945a0d46403b8dae8b29b2"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-011.m4s",
+      "bytes": 1234864,
+      "sha256": "421c1dfda8f486ce92f639f30ea285bac3dad7aa15466eef33dbd64fd6cfc854"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-012.m4s",
+      "bytes": 1380704,
+      "sha256": "d639adb2abc9d64c016634ecfe2f4db5b2e0e692a88fad81886e3593424ac905"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-013.m4s",
+      "bytes": 1205315,
+      "sha256": "746e3f57fc215bf49855306ecfa50023deb61c219ba76cb9d059bc9defc51fe9"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-014.m4s",
+      "bytes": 1402828,
+      "sha256": "a2d9696a3a099000516b393791d618224fcb76d27ce18ab3c9a5d818443cfffa"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-015.m4s",
+      "bytes": 1402162,
+      "sha256": "88768375f48ccd8db36628bfb7439ff8cec7445659bd9a2603dfea6be12984db"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-016.m4s",
+      "bytes": 1251759,
+      "sha256": "49d486a9e3ec282f867cac27d8b902f2202c1d02f8939009c34d31c67c374437"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-017.m4s",
+      "bytes": 1488476,
+      "sha256": "47bb15ad89db661de557c488a26af125469eae4a0458d64f915cfd85ca00203e"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-018.m4s",
+      "bytes": 1303324,
+      "sha256": "c46c8554e87b22342c8b656ef7bd13c76ed7214330256cf7633b227fea68ca5c"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-019.m4s",
+      "bytes": 1397172,
+      "sha256": "fc0254f95eedaedea02423e64233e860e22eb0ac40030991bd732624ed1bd69d"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-020.m4s",
+      "bytes": 1353330,
+      "sha256": "d57607c17a05bf88154ad0563457143043deb75b5a3fda904140a211b3bbd71f"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-021.m4s",
+      "bytes": 1333061,
+      "sha256": "b0f312c25fa322b8858668382fae3f1b784686ac894e112fe650605fa0f56ec2"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-022.m4s",
+      "bytes": 1091960,
+      "sha256": "fb07e10267d5cc8a5e08d8f4bc32d361540087315443bab0df73743feaa04c2c"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-023.m4s",
+      "bytes": 894301,
+      "sha256": "f9782037fb03a5ad4838320028a6c022a221c353c95a40b12205b790890ecfe9"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-024.m4s",
+      "bytes": 1491463,
+      "sha256": "6ec07064801a9e0545152ef193c5f59010fd3aa4c65b9c5e0519276641771ba6"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-025.m4s",
+      "bytes": 1361141,
+      "sha256": "6f2b9a5a8d03c788cd9d03d31275f92dd8453b13c238671a15fb2b39b3eddbc5"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-026.m4s",
+      "bytes": 1342785,
+      "sha256": "361f6f1e15f86b30b797f941aa87e9bad8c586185f278df8690b120e574f4d60"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-027.m4s",
+      "bytes": 1287670,
+      "sha256": "9dac8675dccfb535cbfc07f2d194a0320e378e33dadade31e77a3f73f74614c3"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-028.m4s",
+      "bytes": 1250617,
+      "sha256": "7fdbcf70beada6e68862e712083301cc71a5de28f190ebf9a72627486987bdf2"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-029.m4s",
+      "bytes": 1314251,
+      "sha256": "e9fe9a1e2301e5d4ed9fc537562f157ea77d6a7a2e4c7d00722cf26cc015e3aa"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-030.m4s",
+      "bytes": 850157,
+      "sha256": "33809810756d0734617b59b4b929c35c9ca2ea7b4fb527d8b37166f7d8d20ac4"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-031.m4s",
+      "bytes": 1504223,
+      "sha256": "dc18ba8aa6ca18420cb1740094f03f5d54da43e27a6a0612db6fafad3bf08991"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-032.m4s",
+      "bytes": 948561,
+      "sha256": "a44b5c3056c18c103c3cf82bd88178158aa0ffa7dddc939fe89010718109b171"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-033.m4s",
+      "bytes": 1184151,
+      "sha256": "8ae8c5aa4fc29e1f5360758ced7cbe09cafa9b1f542460c7837fbeca16bfca90"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-034.m4s",
+      "bytes": 978824,
+      "sha256": "999a98121a76b71d6d6134aa0f3f4cec516a5f63aa0b4122fc297c95239ea173"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-035.m4s",
+      "bytes": 508583,
+      "sha256": "cdab8a07cdc892018a4eb7990e4b10e869c71efdee306efdc4398804570a1eed"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-036.m4s",
+      "bytes": 611710,
+      "sha256": "76cb051870f1881ae550807561ec12d8b18b4dd07bdcb88278d10e295ca3b317"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-037.m4s",
+      "bytes": 700002,
+      "sha256": "e63134a2e1d66eb096803871cc57ecb43827b50166b26669308362b9d4f99e7c"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-038.m4s",
+      "bytes": 453155,
+      "sha256": "d911ef4f78257ebf9d4ea3907b587d62638c9da80f10811fb88fee37a2ff08ae"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-039.m4s",
+      "bytes": 611298,
+      "sha256": "a7b4b6c3922488f69770eebd8955e41b716c6d73fdd83fc5bbd3d9bc8ac7a923"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-040.m4s",
+      "bytes": 909181,
+      "sha256": "b89d2fee4dd2e538bf67a438caccfdb2cd44de35ddf8a832d164c8c2e577fe11"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-041.m4s",
+      "bytes": 231016,
+      "sha256": "99f711dc2d9453788ca4bb4722f2cb4c66072913cb6ebbd6cda3a05caae4f2c6"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-042.m4s",
+      "bytes": 464230,
+      "sha256": "cda6d5aaab7360b7957161d8c35d18810b356bd6cb96a91baed1661bcdef35b9"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-043.m4s",
+      "bytes": 1388061,
+      "sha256": "b083cb88b90aa361f9d88dfb7f8f42f4c0757ccc7970eee8e87487ef9c474178"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-044.m4s",
+      "bytes": 1243387,
+      "sha256": "859cf3cb5fae8a4621e72e38c899fa86cc74a6f9ec8b8ad981024409906f736a"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-045.m4s",
+      "bytes": 540828,
+      "sha256": "e8f9c534dc55128fb01f2184e2a8f96baf9a8b06a35b5d430de79f929c927e11"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-046.m4s",
+      "bytes": 201940,
+      "sha256": "031a0c9869e8b6c0351c1b88961f373ac2919a757e9bd9999855733b085f7a50"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-047.m4s",
+      "bytes": 62383,
+      "sha256": "4d8d160d307701f4a71ac3c89b6b583b71d37faa010b3903d10adc9d5f0156e2"
+    },
+    {
+      "path": "public/assets/films/suspended-state/part-048.m4s",
+      "bytes": 81188,
+      "sha256": "b135cfcb38f738871fee7b3ce3ff8934f3a391245d9af70ee0685bd5db9ef7b2"
+    },
+    {
+      "path": "public/assets/share.jpg",
+      "bytes": 191008,
+      "sha256": "d936d6929684a5e13851d37f0ff1918b2944722572f5dc4acbf9e9aa844003f8"
+    },
+    {
+      "path": "public/assets/showreel-poster.webp",
+      "bytes": 1854,
+      "sha256": "f25beac497ca8d23a39dd414b4e60316eaacbbc584e25652b2d4b772ffe3cbed"
+    },
+    {
+      "path": "public/assets/suspended-poster.webp",
+      "bytes": 272340,
+      "sha256": "301140674bf61a6384355046781797007c6421b9a72a54ad13e3b7d000eee288"
+    },
+    {
+      "path": "public/assets/suspended-preview.webp",
+      "bytes": 93146,
+      "sha256": "75236331ba3eed381fb8b6666af1c579d92809ba16d8ac56165aeba82a8c6268"
+    },
+    {
+      "path": "public/assets/tower-poster.webp",
+      "bytes": 79050,
+      "sha256": "7d6738adaa09c970f50f0ee9d0c335b9aecb117412674a3e34c3471fd4f21238"
+    },
+    {
+      "path": "public/assets/zhang-jinyi-resume.pdf",
+      "bytes": 139845,
+      "sha256": "21518e13ff5dd146a745602882a854eaed9fb1574c23a6672d0bf60be6a652c7"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 268,
+      "sha256": "57196cf5e9555e530f55406e99eea71a29aff92c9a3962de32c444009de72b3e"
+    },
+    {
+      "path": "src/App.jsx",
+      "bytes": 18736,
+      "sha256": "0f38e9e0e350fd139ff055ebf1320afb7efa9c956b73278f22abac303ba356bb"
+    },
+    {
+      "path": "src/Atmosphere.jsx",
+      "bytes": 10666,
+      "sha256": "1913ddb099233e43fe5d1726d016bd02aec5f8f5dfe8d79d7b852a4d53297e1c"
+    },
+    {
+      "path": "src/FilmPlayer.jsx",
+      "bytes": 3269,
+      "sha256": "95d395581d613816c1502d694f9ddb9b8579e1f80208ed3c18fcc1ed410fad94"
+    },
+    {
+      "path": "src/GlassShader.jsx",
+      "bytes": 6240,
+      "sha256": "a263fa7dcef9ff3acaeaf807b7d8ec97379622893822db57996fe3023ba5e47c"
+    },
+    {
+      "path": "src/ProjectDialog.jsx",
+      "bytes": 5735,
+      "sha256": "46aab8f8272fe4d2d2d0f1b9aeb11ff79549426941612c26693c66d66fc39954"
+    },
+    {
+      "path": "src/artworks.js",
+      "bytes": 7825,
+      "sha256": "4f4f9a80401af86c8dcca194b3ecf08e2b63d9a6308fcd72b4c9396150188e24"
+    },
+    {
+      "path": "src/cinema.css",
+      "bytes": 31544,
+      "sha256": "130dce7fd0efe40a694a6dcab743f5d863765027af197a26b81f210de447beeb"
+    },
+    {
+      "path": "src/content.js",
+      "bytes": 2187,
+      "sha256": "4d4c6de00abc15827d5d272a92fee06e318dba01bb2a36fe49ba9f65ec3a2c17"
+    },
+    {
+      "path": "src/films.js",
+      "bytes": 771,
+      "sha256": "71ff80e8b76df9f2f9ef039f45e6661ba012d4e15ad9539efd57212e22c537f3"
+    },
+    {
+      "path": "src/geometry.js",
+      "bytes": 1000,
+      "sha256": "a7b9cef25008522fec58a13eaf6e4757279974a166ccf0308c79d4058e05998a"
+    },
+    {
+      "path": "src/glassShaders.js",
+      "bytes": 1745,
+      "sha256": "60813f6ae0819283ea1bb9ffaf843c8a7d9c068cbbef4fa36e394ccab574205b"
+    },
+    {
+      "path": "src/main.jsx",
+      "bytes": 188,
+      "sha256": "73f2e568106220c56b41d5486cabb7577f6c2f30aa9d6bf16f3a6b4f1d5637c7"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 161,
+      "sha256": "7df469b19b3e9dd306827efa765c511a7cd2769df03d3d4a553bd85cd751849f"
+    }
+  ]
+}

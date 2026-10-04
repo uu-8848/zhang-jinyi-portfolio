@@ -1,0 +1,292 @@
+{
+  "checked_at": "2026-10-04T22:20:02+08:00",
+  "source": {
+    "sites_version": 6,
+    "source_commit": "d5d882b808723a404d9c2f86f34bfd8ebc567630",
+    "zip_bytes": 134909870,
+    "zip_sha256": "c489c48c6d1dfe8bb5e4d5d5fcc736fa1d805e7bb44a1a2c4720cc43c7f03fd2",
+    "manifest_files_verified": 121,
+    "manifest_file_included": true,
+    "original_files_unchanged": true,
+    "git_parent": "cee0697dc1f02a83e45637a65666c04bc1155f23"
+  },
+  "build": {
+    "node": "24.19.0",
+    "npm": "11.9.0",
+    "install": "npm ci --cache /workspace/work/npm-cache --no-audit --no-fund",
+    "command": "npm run build",
+    "passed": true,
+    "duration": "3m36s",
+    "warning": "HLS async chunk 523.40 kB exceeds Vite 500 kB size warning threshold; no dependency or source changes made."
+  },
+  "browser": {
+    "engine": "Headless Chromium 151.0.7922.173",
+    "served": "Production dist via Vite preview on localhost",
+    "viewports": [
+      "1440x900 desktop",
+      "390x844 mobile and touch emulation",
+      "1280x600 short window"
+    ],
+    "checks": [
+      {
+        "name": "desktop opening playback",
+        "data": {
+          "before": 1.766722,
+          "after": 2.478341
+        }
+      },
+      {
+        "name": "WebGL interaction",
+        "data": "true"
+      },
+      {
+        "name": "pause and resume",
+        "data": {
+          "before": 3.25721,
+          "after": 3.965829
+        }
+      },
+      {
+        "name": "resume download",
+        "data": "张津溢_简历.pdf"
+      },
+      {
+        "name": "project navigation suspended-state",
+        "data": {
+          "plates": 1,
+          "closed": true
+        }
+      },
+      {
+        "name": "project navigation endless-tower",
+        "data": {
+          "plates": 1,
+          "closed": true
+        }
+      },
+      {
+        "name": "project navigation sleep-no-more",
+        "data": {
+          "plates": 5,
+          "closed": true
+        }
+      },
+      {
+        "name": "project navigation mr-xu",
+        "data": {
+          "plates": 8,
+          "closed": true
+        }
+      },
+      {
+        "name": "project navigation four-seasons",
+        "data": {
+          "plates": 4,
+          "closed": true
+        }
+      },
+      {
+        "name": "project navigation pop-mart",
+        "data": {
+          "plates": 2,
+          "closed": true
+        }
+      },
+      {
+        "name": "resume tabs and keyboard",
+        "data": true
+      },
+      {
+        "name": "ending playback",
+        "data": {
+          "before": 0.981813,
+          "after": 1.689483
+        }
+      },
+      {
+        "name": "film suspended-state",
+        "data": {
+          "duration": 292.566667,
+          "width": 1280,
+          "height": 720,
+          "error": null,
+          "before": 0.02124,
+          "after": 0.670581,
+          "seekNearEnd": true
+        }
+      },
+      {
+        "name": "film endless-tower",
+        "data": {
+          "duration": 202.807692,
+          "width": 967,
+          "height": 544,
+          "error": null,
+          "before": 0.013042,
+          "after": 0.659886,
+          "seekNearEnd": true
+        }
+      },
+      {
+        "name": "film sleep-no-more",
+        "data": {
+          "duration": 93.319002,
+          "width": 1080,
+          "height": 720,
+          "error": null,
+          "before": 0.008662,
+          "after": 0.662746,
+          "seekNearEnd": true
+        }
+      },
+      {
+        "name": "film mr-xu",
+        "data": {
+          "duration": 94.711995,
+          "width": 1276,
+          "height": 720,
+          "error": null,
+          "before": 0.016823,
+          "after": 0.668467,
+          "seekNearEnd": true
+        }
+      },
+      {
+        "name": "film showreel",
+        "data": {
+          "duration": 102.416667,
+          "width": 653,
+          "height": 368,
+          "error": null,
+          "before": 0.018021,
+          "after": 0.670832,
+          "seekNearEnd": true
+        }
+      },
+      {
+        "name": "desktop no horizontal overflow",
+        "data": true
+      },
+      {
+        "name": "mobile opening",
+        "data": {
+          "before": 1.70047,
+          "after": 2.4078
+        }
+      },
+      {
+        "name": "mobile MP4",
+        "data": {
+          "before": 0.007624,
+          "after": 0.665441
+        }
+      },
+      {
+        "name": "film suspended-state",
+        "data": {
+          "duration": 292.566667,
+          "width": 1280,
+          "height": 720,
+          "error": null,
+          "before": 0.009252,
+          "after": 0.652379,
+          "seekNearEnd": true
+        }
+      },
+      {
+        "name": "mobile no horizontal overflow",
+        "data": true
+      },
+      {
+        "name": "short window sequential layout",
+        "data": true
+      },
+      {
+        "name": "reduced motion",
+        "data": true
+      }
+    ],
+    "page_errors": [],
+    "http_errors": [],
+    "environment_warnings": [
+      "[.WebGL-0x38ac03329800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels",
+      "[.WebGL-0x38ac03329800]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)",
+      "[]Automatic fallback to software WebGL has been deprecated. Please use the --enable-unsafe-swiftshader flag to opt in to lower security guarantees for trusted content."
+    ]
+  },
+  "additional_browser_checks": [
+    "项目链接复制及 URL 参数打开",
+    "Chromium 影片进入和退出全屏",
+    "结尾背景跨越循环边界",
+    "禁用 WebGL、背景视频请求失败时仍显示封面并可打开作品"
+  ],
+  "media_full_decode": [
+    {
+      "file": "public/assets/cinema/opening-mobile.mp4",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "public/assets/cinema/membranes-loop.mp4",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "public/assets/cinema/ending-mobile.mp4",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "public/assets/cinema/opening-loop.mp4",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "public/assets/cinema/membranes-mobile.mp4",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "public/assets/cinema/ending-loop.mp4",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "public/assets/films/mr-xu.mp4",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "public/assets/films/endless-tower.mp4",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "public/assets/films/sleep-no-more.mp4",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "public/assets/films/showreel.mp4",
+      "passed": true,
+      "error": ""
+    },
+    {
+      "file": "public/assets/films/suspended-state/film.m3u8",
+      "passed": true,
+      "error": ""
+    }
+  ],
+  "resume_download_matches_original": true,
+  "limitations": [
+    "Mobile viewport/touch emulation is not testing on a physical phone.",
+    "Safari, WeChat and physical-device autoplay, native fullscreen, touch and performance remain unverified.",
+    "Headless browser audio was not listened to; FFmpeg decoded video and audio without error.",
+    "WebGL used the cloud browser software renderer; no device frame-rate or performance claims."
+  ],
+  "deployment": {
+    "republished": false,
+    "hosting_changed": false,
+    "existing_url": "https://zhang-jinyi.jinyi.chatgpt.site"
+  }
+}
